@@ -12,7 +12,7 @@ body {
 .header {
     background-color: darkred;
     text-align: center;
-    padding: 3px;
+    padding: 20px;
     border-bottom: solid 2px;
 }
 
@@ -26,25 +26,26 @@ body {
     box-sizing: border-box;
     flex: none;
     height: 100%;
-    width: 200px;
+    width: 350px;
     height: 100%;
     background-color: darkred;
     border-right: solid 2px;
-    padding-top: 30px;
+    padding-top: 70px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 button {
     display: block;
-    width: 120px;
-    padding: 10px;
+    width: 210px;
+    padding: 12px;
     color: rgb(44, 70, 71);
     font-weight: bold;
+    font-size: 1.4em;
 }
 
 button:hover {
@@ -54,8 +55,8 @@ button:hover {
 
 .main-container {
     margin: 0 auto;
-    height: 450px;
-    width: 450px;
+    height: 780px;
+    width: 780px;
     border: solid;
     border-width:  5px 4px 4px 5px ;
     display: flex;
@@ -84,7 +85,7 @@ h1 {
     margin: 0;
     padding: 0;
     font-family: 'VT323';
-    font-size: 3em;
+    font-size: 5em;
     color: blanchedalmond;
 }
 
