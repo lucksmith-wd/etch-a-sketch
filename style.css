@@ -1,20 +1,66 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: darkred;
+    text-align: center;
+    padding: 3px;
+    border-bottom: solid 2px;
+}
+
+.content {
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+}
+
+.left {
     box-sizing: border-box;
+    flex: none;
+    height: 100%;
+    width: 200px;
+    height: 100%;
+    background-color: darkred;
+    border-right: solid 2px;
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    color: rgb(44, 70, 71);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: cadetblue;
+    color: white;
 }
 
 .main-container {
-    height: 500px;
-    width: 500px;
+    margin: 0 auto;
+    height: 450px;
+    width: 450px;
     border: solid;
-    border-width:  1px 0 0 1px ;
+    border-width:  5px 4px 4px 5px ;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .row {
@@ -22,15 +68,23 @@ body {
     margin: 0;
     padding: 0;
     flex: 1 1 0;
-    border-bottom: solid 1px;
+    border-bottom: solid 1px gray;
     display: flex;
     flex-direction: row;
 }
 
 .square {
-    
     margin: 0;
     padding: 0;
     flex: 1 1 0;
-    border-right: solid 1px;
+    border-right: solid 1px gray;
 }
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323';
+    font-size: 3em;
+    color: blanchedalmond;
+}
+
