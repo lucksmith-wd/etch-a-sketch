@@ -10,9 +10,11 @@ body {
 }
 
 .header {
+    height: 100px;
+    display: flex;
+    align-items: center;
     background-color: darkred;
-    text-align: center;
-    padding: 20px;
+    justify-content: center;
     border-bottom: solid 2px;
 }
 
@@ -27,7 +29,6 @@ body {
     flex: none;
     height: 100%;
     width: 350px;
-    height: 100%;
     background-color: darkred;
     border-right: solid 2px;
     padding-top: 70px;
@@ -55,8 +56,8 @@ button:hover {
 
 .main-container {
     margin: 0 auto;
-    height: 780px;
-    width: 780px;
+    height: calc(100vh - 130px);
+    width: calc(100vh - 130px);
     border: solid;
     border-width:  5px 4px 4px 5px ;
     display: flex;
