@@ -31,13 +31,13 @@ body {
     width: 350px;
     background-color: darkred;
     border-right: solid 2px;
-    padding-top: 70px;
+    padding-top: 50px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 button {
